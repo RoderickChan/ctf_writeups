@@ -1,0 +1,6 @@
+def show_info
+x /24wx $rebase(0x202040)
+x /24wx $rebase(0x242060)
+telescope $rebase(0x202040)
+telescope &__free_hook
+end
